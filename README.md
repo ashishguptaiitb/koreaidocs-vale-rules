@@ -8,4 +8,3 @@ Credits to,
 * [Joseph of Vale fame](https://github.com/jdkato)
 * [Microsoft style guide](https://learn.microsoft.com/en-us/style-guide/welcome/)
 * [Kore.ai doc team](https://docs.kore.ai/)
-* 
