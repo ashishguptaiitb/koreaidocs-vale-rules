@@ -1,0 +1,1 @@
+# vale-rules-koreaidocs
