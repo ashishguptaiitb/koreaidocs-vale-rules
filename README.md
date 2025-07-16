@@ -1,8 +1,8 @@
 # About this repository
 
-This repo contains the vale rules customized to Kore.ai docs. These rulse are derived from [Microsoft Writing Style Guide](https://learn.microsoft.com/en-us/style-guide/welcome/).
+The repo contains the Vale rules customized to Kore.ai docs. These rules are based on [Microsoft Style of Writing](https://learn.microsoft.com/en-us/style-guide/welcome/).
 
-It is good to remember that all style rules for good writing can't be automated and need a human's editorial input to.
+It is a good reminder that the rules for great writing can't all be automated, and we (still!) need editorial input from a human.
 
 Credits to,
 * [Joseph of Vale fame](https://github.com/jdkato)
