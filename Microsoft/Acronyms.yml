@@ -13,6 +13,8 @@ exceptions:
   - KPI
   - RFQ
   - ICV
+  - NLP
+  - RFQ
   - AED
   - USA
   - UAE
