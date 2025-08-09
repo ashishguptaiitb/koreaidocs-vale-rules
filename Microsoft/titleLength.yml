@@ -1,9 +1,9 @@
 # titleLength.yml
 # For titles written in Markdown files as headers
 extends: occurrence
-message: 'Titles should be between 20 and 60 characters'
+message: 'Titles must be 20-100 characters.'
 scope: heading
 level: warning
 max: 100
-min: 40
+min: 20
 token: .
