@@ -6,3 +6,4 @@ we
 I
 URL
 SFTP
+SciPy
