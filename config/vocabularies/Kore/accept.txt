@@ -7,3 +7,5 @@ I
 URL
 SFTP
 SciPy
+Agentic
+Kore
