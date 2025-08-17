@@ -9,3 +9,5 @@ SFTP
 SciPy
 Agentic
 Kore
+opensource
+outgoing
