@@ -1,12 +1,12 @@
 extends: existence
 message: "Don't use language (such as '%s') that defines people by their disability."
-link: https://docs.microsoft.com/en-us/style-guide/a-z-word-list-term-collections/term-collections/accessibility-terms
-level: suggestion
+link: https://learn.microsoft.com/en-us/style-guide/a-z-word-list-term-collections/term-collections/accessibility-terms
+level: warning
 ignorecase: true
 tokens:
-  - a victim of
+  - victim of
   - able-bodied
-  - an epileptic
+  - epileptic
   - birth defect
   - crippled
   - differently abled
@@ -28,3 +28,4 @@ tokens:
   - stricken with
   - suffers from
   - vision-impaired
+  - special need
