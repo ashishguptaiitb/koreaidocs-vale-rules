@@ -2,6 +2,7 @@
 # For titles written in Markdown files as headers
 extends: occurrence
 message: 'Titles must be 20-100 characters.'
+link: https://learn.microsoft.com/en-us/style-guide/search-writing
 scope: heading
 level: warning
 max: 100
