@@ -1,7 +1,8 @@
 extends: occurrence
-message: "Try to keep sentences short (< 40 words)."
+message: "Keep your sentences short. Ideally, < 30 words but the current sentence is >45 words."
+link: https://learn.microsoft.com/en-us/style-guide/word-choice/use-simple-words-concise-sentences
 scope: sentence
-level: suggestion
-max: 40
+level: warning
+max: 45
 token: \b(\w+)\b
 
