@@ -1,10 +1,39 @@
-# About this repository
+# How to enable Vale linting in VSCode
 
 The repo contains the Vale rules customized to Kore.ai docs. These rules are based on [Microsoft Style of Writing](https://learn.microsoft.com/en-us/style-guide/welcome/).
 
-It is a good reminder that the rules for great writing can't all be automated, and we (still!) need editorial input from a human.
+It is a good reminder that the rules for great writing can't all be automated, and we (still!) need editorial input from a human. When you have a doubt, rely on a team member and ask for help.
 
-Credits to,
+You must complete the following prerequisites before you begin to install Vale:
+
+* [Trust your workspace](https://code.visualstudio.com/docs/editing/workspaces/workspace-trust#_trusting-a-workspace) in VSCode. This helps extensions work as desired in your workspace.  
+* [Show file extensions in Windows Explorer](https://support.microsoft.com/en-us/windows/common-file-name-extensions-in-windows-da4a4430-8e76-89c5-59f7-1cdbbc75cb01). This helps avoid confusion when copy-pasting file name or when dragging a file on a command window to get its path.  
+* [Update VSCode](https://code.visualstudio.com/docs/supporting/FAQ#_vs-code-versions) to the latest version.
+
+To configure the Vale linter in VSCode, follow these steps:
+
+1. On the command prompt, execute the command `winget install --id=errata-ai.Vale -e`.
+1. To make sure that Vale is successfully installed, execute the command `vale --version`. It must display a version number.  
+   ![Vale version](images/vale-version.png)
+1. Clone the GitHub repository [https://github.com/ashishguptaiitb/koreaidocs-vale-rules](https://github.com/ashishguptaiitb/koreaidocs-vale-rules) locally. Let's assume that your local path is `C:\Users\X\Documents\GitHub\koreaidocs-vale-rules`.
+1. Open the `.vale.ini` file in the above directory and change the value of the `StylesPath` variable to the path of the current folder. In our example, the value of the `StylesPath` variable becomes `C:\Users\X\Documents\GitHub\koreaidocs-vale-rules`. Save and close the `.vale.ini` file.
+   ![Style path variable value in the Vale INI file.](images/vale-ini-stylepath.png)
+1. Open VSCode that is updated to the latest version. Select **File** > **Preferences** > **Settings**.
+1. Search for **Vale** in the search settings field. In the search results, select **Vale** from the left sidebar.
+   ![Search vale in the VSCode settings.](images/images/vscode-vale-settings.png)
+1. Select the **Vale: Do Not Show Warning For File To Be Saved Before Linting** option.
+1. Select the **Vale: Enable Spellcheck** option.
+1. Change the value of the **Vale: Max Number Of Problems** option to 500.
+1. In the **Vale > Vale CLI: Config** field, enter the path of the .ini settings file. In our example, the file path is `C:\Users\X\Documents\GitHub\koreaidocs-vale-rules\.vale.ini`.
+1. Relaunch VSCode to load the settings.
+1. Open an MD file and select **View** > **Problems** to view the style issues. Report generation may take some time. Update the content to resolve these issues.  
+    ![Same problems report](images/sample-problems.png)  
+1. Select each issue and update the content to resolve it. Hover the pointer over the issue to view the option to fix the problem.     ![Various options to resolve the issue.](images/options-to-resolve.png)
+1. Optionally, if you choose **Quick Fix**, it provides an AI-generated explanation of the problem, fixes the problem, and then prompts you to accept the updates. Choose **Accept** if you approve of the fix.  
+    ![Option to accept the automatic fix.](images/accept-fix.png)
+
+# Credits
+
 * [Joseph of Vale fame](https://github.com/jdkato)
 * [Microsoft style guide](https://learn.microsoft.com/en-us/style-guide/welcome/)
 * [Kore.ai doc team](https://docs.kore.ai/)
