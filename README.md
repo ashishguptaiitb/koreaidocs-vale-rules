@@ -26,9 +26,10 @@ To configure the Vale linter in VSCode, follow these steps:
 1. Change the value of the **Vale: Max Number Of Problems** option to 500.
 1. In the **Vale > Vale CLI: Config** field, enter the path of the .ini settings file. In our example, the file path is `C:\Users\X\Documents\GitHub\koreaidocs-vale-rules\.vale.ini`.
 1. Relaunch VSCode to load the settings.
-1. Open an MD file and select **View** > **Problems** to view the style issues. Report generation may take some time. Update the content to resolve these issues.  
+1. Open an MD file and select **View** > **Problems** to view the style issues. Report generation may take some time. Update the content to resolve these issues.
     ![Same problems report](images/sample-problems.png)  
-1. Select each issue and update the content to resolve it. Hover the pointer over the issue to view the option to fix the problem.     ![Various options to resolve the issue.](images/options-to-resolve.png)
+1. Select each issue and update the content to resolve it. Hover the pointer over the issue to view the option to fix the problem.
+    ![Various options to resolve the issue.](images/options-to-resolve.png)
 1. Optionally, if you choose **Quick Fix**, it provides an AI-generated explanation of the problem, fixes the problem, and then prompts you to accept the updates. Choose **Accept** if you approve of the fix.  
     ![Option to accept the automatic fix.](images/accept-fix.png)
 
