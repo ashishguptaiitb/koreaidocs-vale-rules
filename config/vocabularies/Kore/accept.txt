@@ -1,9 +1,6 @@
 JavaScript
 procure
 Procure
-my
-we
-I
 URL
 SFTP
 SciPy
