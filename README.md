@@ -20,7 +20,7 @@ To configure the Vale linter in VSCode, follow these steps:
    ![Style path variable value in the Vale INI file.](images/vale-ini-stylepath.png)
 1. Open VSCode that is updated to the latest version. Select **File** > **Preferences** > **Settings**.
 1. Search for **Vale** in the search settings field. In the search results, select **Vale** from the left sidebar.
-   ![Search vale in the VSCode settings.](images/images/vscode-vale-settings.png)
+   ![Search vale in the VSCode settings.](images/vscode-vale-settings.png)
 1. Select the **Vale: Do Not Show Warning For File To Be Saved Before Linting** option.
 1. Select the **Vale: Enable Spellcheck** option.
 1. Change the value of the **Vale: Max Number Of Problems** option to 500.
