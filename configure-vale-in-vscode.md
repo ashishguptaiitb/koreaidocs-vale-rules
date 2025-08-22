@@ -20,7 +20,7 @@ To configure the Vale linter in VSCode, follow these steps:
 
 1. Open VSCode that's updated to the latest version. Select **File** > **Preferences** > **Settings**.
 
-1. Install the [Vale extension](https://marketplace.visualstudio.com/items?itemName=ChrisChinchilla.vale-vscode) in VSCode.
+1. Install the [Vale extension](https://marketplace.visualstudio.com/items?itemName=ChrisChinchilla.vale-vscode) in VSCode. Restart VSCode editor.
  
 1. Search for **Vale** in the search settings field. In the search results, select **Vale** from the left sidebar.
     ![Search vale in the VSCode settings.](images/vscode-vale-settings.png)
