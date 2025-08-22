@@ -16,14 +16,14 @@ To configure the Vale linter in VSCode, follow these steps:
 1. Clone the GitHub repository [https://github.com/ashishguptaiitb/koreaidocs-vale-rules](https://github.com/ashishguptaiitb/koreaidocs-vale-rules) locally. Let's assume that your local path is `C:\Users\X\Documents\GitHub\koreaidocs-vale-rules`.
 
 1. Open the `.vale.ini` file in the above directory and change the value of the `StylesPath` variable to the path of the current folder. In our example, the value of the `StylesPath` variable becomes `C:\Users\X\Documents\GitHub\koreaidocs-vale-rules`. Save and close the `.vale.ini` file.
-   ![Style path variable value in the Vale INI file.](images/vale-ini-stylepath.png)
+    ![Style path variable value in the Vale INI file.](images/vale-ini-stylepath.png)
 
 1. Open VSCode that's updated to the latest version. Select **File** > **Preferences** > **Settings**.
 
 1. Install the [Vale extension](https://marketplace.visualstudio.com/items?itemName=ChrisChinchilla.vale-vscode) in VSCode.
  
 1. Search for **Vale** in the search settings field. In the search results, select **Vale** from the left sidebar.
-   ![Search vale in the VSCode settings.](images/vscode-vale-settings.png)
+    ![Search vale in the VSCode settings.](images/vscode-vale-settings.png)
 
 1. Select the **Vale: Do Not Show Warning For File To Be Saved Before Linting** option.
 
