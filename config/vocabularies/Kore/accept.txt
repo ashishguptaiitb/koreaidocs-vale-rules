@@ -12,3 +12,4 @@ postback
 Pseudonymization
 Recrawling
 Omnichannel
+Board Observer
