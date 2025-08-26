@@ -13,3 +13,5 @@ Pseudonymization
 Recrawling
 Omnichannel
 Board Observer
+OKTA
+REST
