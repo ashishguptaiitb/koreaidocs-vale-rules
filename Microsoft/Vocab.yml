@@ -1,23 +1,29 @@
 extends: existence
 message: "Verify your use of '%s' with the A-Z word list."
 link: 'https://docs.microsoft.com/en-us/style-guide'
-level: suggestion
+level: warning
 ignorecase: true
 tokens:
   - above
   - accessible
   - actionable
+  - administrate
   - against
   - alarm
   - alert
   - alias
+  - allow
   - allows?
   - and/or
+  - and so on
   - as well as
   - assure
   - author
+  - auto-
   - avg
   - beta
+  - below
+  - click
   - ensure
   - he
   - insure
