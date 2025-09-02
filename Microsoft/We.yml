@@ -1,5 +1,5 @@
 extends: existence
-message: "Try to avoid using first-person plural like '%s'."
+message: "Try to avoid using first-person plural like '%s'. But can use instead of the company name for recommendations."
 link: https://learn.microsoft.com/en-us/style-guide/grammar/person#avoid-first-person-plural
 level: suggestion
 ignorecase: true
