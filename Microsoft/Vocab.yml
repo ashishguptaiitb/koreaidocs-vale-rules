@@ -34,8 +34,12 @@ tokens:
   - bot
   - bottom left
   - bottom right
+  - build
+  - button
   - chatbot
   - click
+  - end user
+  - end-user
   - ensure
   - he
   - insure
@@ -43,6 +47,8 @@ tokens:
   - she
   - top left
   - top right
+  - versus
+  - vs.
   - virtual agent
   - virtual assistant
   - VA
