@@ -28,3 +28,10 @@ in the future
 moving forward
 latest release
 current release
+in this release
+in the current version
+newly added
+just introduced
+introduced in the last release
+deprecated recently
+soon to be removed
