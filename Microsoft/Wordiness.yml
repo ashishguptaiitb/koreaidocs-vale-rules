@@ -2,7 +2,7 @@ extends: substitution
 message: "Consider using '%s' instead of '%s'."
 link: https://learn.microsoft.com/en-us/style-guide/word-choice/use-simple-words-concise-sentences
 ignorecase: true
-level: suggestion
+level: warning
 action:
   name: replace
 swap:
@@ -37,7 +37,6 @@ swap:
   at a later date: later
   at all times: always
   at the present time: now
-  at this point in time: at this point
   based in large part on: based on
   based on the fact that: because
   basic necessity: necessity
@@ -125,3 +124,6 @@ swap:
   whether or not: whether
   with regard to: regarding
   with the exception of: except for
+  in order for: for
+  for the purpose of: for
+  in the meantime: 
