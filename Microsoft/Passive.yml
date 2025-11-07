@@ -47,6 +47,7 @@ tokens:
   - drunk
   - dug
   - eaten
+  - enabled
   - fallen
   - fed
   - felt
@@ -98,6 +99,7 @@ tokens:
   - overtaken
   - overthrown
   - paid
+  - passed
   - pled
   - proven
   - put
