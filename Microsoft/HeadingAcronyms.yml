@@ -7,3 +7,6 @@ tokens:
   - '[A-Z]{2,4}'
 exceptions:
   - SSO
+  - API
+  - APIs
+  - LLM
