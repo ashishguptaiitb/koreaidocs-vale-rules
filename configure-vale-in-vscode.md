@@ -5,6 +5,7 @@ You must complete the following prerequisites before you begin to install Vale:
 * [Trust your workspace](https://code.visualstudio.com/docs/editing/workspaces/workspace-trust#_trusting-a-workspace) in VSCode. This helps extensions work as desired in your workspace.  
 * [Show file extensions in Windows Explorer](https://support.microsoft.com/en-us/windows/common-file-name-extensions-in-windows-da4a4430-8e76-89c5-59f7-1cdbbc75cb01). This helps avoid confusion when copy-pasting file name or when dragging a file on a command window to get its path.  
 * [Update VSCode](https://code.visualstudio.com/docs/supporting/FAQ#_vs-code-versions) to the latest version.
+* Keep the clone of your GitHub repository and the Vale config repository in the same system drive.
 
 To configure the Vale linter in VSCode, follow these steps:
 
@@ -23,6 +24,7 @@ To configure the Vale linter in VSCode, follow these steps:
 1. Install the [Vale extension](https://marketplace.visualstudio.com/items?itemName=ChrisChinchilla.vale-vscode) in VSCode. Restart VSCode editor.
  
 1. Search for **Vale** in the search settings field. In the search results, select **Vale** from the left sidebar.
+
     ![Search vale in the VSCode settings.](images/vscode-vale-settings.png)
 
 1. Select the **Vale: Do Not Show Warning For File To Be Saved Before Linting** option.
@@ -36,10 +38,13 @@ To configure the Vale linter in VSCode, follow these steps:
 1. Relaunch VSCode to load the settings.
 
 1. Open an MD file and select **View** > **Problems** to view the style issues. Report generation may take some time. Update the content to resolve these issues.
+
    ![Same problems report](images/sample-problems.png)
 
 1. Select each issue and update the content to resolve it. Hover the pointer over the issue to view the option to fix the problem.
+
    ![Various options to resolve the issue.](images/options-to-resolve.png)
 
 1. Optionally, if you choose **Quick Fix**, it provides an AI-generated explanation of the problem, fixes the problem, and then prompts you to accept the updates. Choose **Accept** if you approve of the fix.
+
    ![Option to accept the automatic fix.](images/accept-fix.png)
