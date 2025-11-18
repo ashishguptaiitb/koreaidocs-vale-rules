@@ -16,7 +16,7 @@ To configure the Vale linter in VSCode, follow these steps:
 
 1. Clone the GitHub repository [https://github.com/ashishguptaiitb/koreaidocs-vale-rules](https://github.com/ashishguptaiitb/koreaidocs-vale-rules) locally. Let's assume that your local path is `C:\Users\X\Documents\GitHub\koreaidocs-vale-rules`.
 
-1. Open the `.vale.ini` file in the above directory and change the value of the `StylesPath` variable to the path of the current folder. In our example, the value of the `StylesPath` variable becomes `C:\Users\X\Documents\GitHub\koreaidocs-vale-rules`. Save and close the `.vale.ini` file.
+1. Open the `.vale.ini` file in the above directory and change the value of the `StylesPath` variable to the path of the current folder. In our example, the value of the `StylesPath` variable becomes `C:\Users\X\Documents\GitHub\koreaidocs-vale-rules`. Save and close the `.vale.ini` file.  
     ![Style path variable value in the Vale INI file.](images/vale-ini-stylepath.png)
 
 1. Open VSCode that's updated to the latest version. Select **File** > **Preferences** > **Settings**.
