@@ -2,10 +2,11 @@
 
 You must complete the following prerequisites before you begin to install Vale:
 
-* [Trust your workspace](https://code.visualstudio.com/docs/editing/workspaces/workspace-trust#_trusting-a-workspace) in VSCode. This helps extensions work as desired in your workspace.  
-* [Show file extensions in Windows Explorer](https://support.microsoft.com/en-us/windows/common-file-name-extensions-in-windows-da4a4430-8e76-89c5-59f7-1cdbbc75cb01). This helps avoid confusion when copy-pasting file name or when dragging a file on a command window to get its path.  
-* [Update VSCode](https://code.visualstudio.com/docs/supporting/FAQ#_vs-code-versions) to the latest version.
-* Keep the clone of your GitHub repository and the Vale config repository in the same system drive.
+| Task | Reason |
+|----|----|
+| [Trust your workspace](https://code.visualstudio.com/docs/editing/workspaces/workspace-trust#_trusting-a-workspace) in VSCode. | This helps extensions work as desired in your workspace. |
+| [Show file extensions in Windows Explorer](https://support.microsoft.com/en-us/windows/common-file-name-extensions-in-windows-da4a4430-8e76-89c5-59f7-1cdbbc75cb01). | It helps avoid confusion when copy-pasting file name or when dragging a file on a command window to get its path. |
+| [Update VSCode](https://code.visualstudio.com/docs/supporting/FAQ#_vs-code-versions) to the latest version. | "Because it's there!" |
 
 ## Configure to use the Vale extension in VSCode
 
@@ -45,3 +46,13 @@ You must complete the following prerequisites before you begin to install Vale:
 1. Optionally, if you choose **Quick Fix**, it provides an AI-generated explanation of the problem, fixes the problem, and then prompts you to accept the updates. Choose **Accept** if you approve of the fix.
 
    ![Option to accept the automatic fix.](images/accept-fix.png)
+
+## Troubleshoot Vale usage and config
+
+* If you see E100 error in VSCode in the lower-right corner, it indicates that VSCode Vale extension is not able to find the .ini settings file.
+  * Make sure in the settings that you provide the path to the .ini file and not the folder.
+
+* If you see fatal error when cloning the repo in GitHub desktop client, it indicates either a permissions issue or an incorrect path.
+  * Make sure that you are cloning the repo in a folder where you have read-write permissions. For example, don't clone directly into C:\ but use a folder inside `C:\Users\X\*`, for example, the `Documents` folder or the 'Desktop' folder.
+  * Make sure that you don't add any special characters in the URL or the local folder. Also, make sure that you don't copy an extra space in the URL of the GitHub repo.
+
