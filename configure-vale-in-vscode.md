@@ -7,12 +7,7 @@ You must complete the following prerequisites before you begin to install Vale:
 * [Update VSCode](https://code.visualstudio.com/docs/supporting/FAQ#_vs-code-versions) to the latest version.
 * Keep the clone of your GitHub repository and the Vale config repository in the same system drive.
 
-To configure the Vale linter in VSCode, follow these steps:
-
-1. On the command prompt, execute the command `winget install --id=errata-ai.Vale -e`.
-
-1. To make sure that Vale is successfully installed, execute the command `vale --version`. It must display a version number.  
-   ![Vale version](images/vale-version.png)
+## Configure to use the Vale extension in VSCode
 
 1. Clone the GitHub repository [https://github.com/ashishguptaiitb/koreaidocs-vale-rules](https://github.com/ashishguptaiitb/koreaidocs-vale-rules) locally. Let's assume that your local path is `C:\Users\X\Documents\GitHub\koreaidocs-vale-rules`.
 
@@ -35,7 +30,9 @@ To configure the Vale linter in VSCode, follow these steps:
 
 1. In the **Vale > Vale CLI: Config** field, enter the path of the .ini settings file. In our example, the file path is `C:\Users\X\Documents\GitHub\koreaidocs-vale-rules\.vale.ini`.
 
-1. Relaunch VSCode to load the settings.
+1. Relaunch VSCode to load the new settings.
+
+## Use the extension in VSCode 
 
 1. Open an MD file and select **View** > **Problems** to view the style issues. Report generation may take some time. Update the content to resolve these issues.
 
