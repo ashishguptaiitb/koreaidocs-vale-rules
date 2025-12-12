@@ -86,3 +86,18 @@ exceptions:
   - NOT
   - APAC
   - HITL
+  - UDP
+  - FQDN
+  - TLS
+  - RTP
+  - WSS
+  - DTMF
+  - ANI
+  - OPUS
+  - PCMA
+  - PCMU
+  - VPN
+  - NAT
+  - STUN
+  - TURN
+  - AWS
