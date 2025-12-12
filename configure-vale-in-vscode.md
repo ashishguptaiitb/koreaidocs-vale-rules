@@ -6,7 +6,7 @@ You must complete the following prerequisites before you begin to install Vale:
 |----|----|
 | [Trust your workspace](https://code.visualstudio.com/docs/editing/workspaces/workspace-trust#_trusting-a-workspace) in VSCode. | This helps extensions work as desired in your workspace. |
 | [Show file extensions in Windows Explorer](https://support.microsoft.com/en-us/windows/common-file-name-extensions-in-windows-da4a4430-8e76-89c5-59f7-1cdbbc75cb01). | It helps avoid confusion when copy-pasting file name or when dragging a file on a command window to get its path. |
-| [Update VSCode](https://code.visualstudio.com/docs/supporting/FAQ#_vs-code-versions) to the latest version. | "Because it's there!" |
+| [Update VSCode](https://code.visualstudio.com/docs/supporting/FAQ#_vs-code-versions) to the latest version. | Because it's there! |
 
 ## Configure to use the Vale extension in VSCode
 
