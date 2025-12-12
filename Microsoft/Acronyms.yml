@@ -101,3 +101,7 @@ exceptions:
   - STUN
   - TURN
   - AWS
+  - CPS
+  - CCP
+  - DSCP
+  - MPLS
