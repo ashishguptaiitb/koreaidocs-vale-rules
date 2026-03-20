@@ -10,9 +10,10 @@ You must complete the following prerequisites before you begin to install Vale:
 
 ## Configure to use the Vale extension in VSCode
 
-1. Clone the GitHub repository [https://github.com/ashishguptaiitb/koreaidocs-vale-rules](https://github.com/ashishguptaiitb/koreaidocs-vale-rules) locally. Let's assume that your local path is `C:\Users\X\Documents\GitHub\koreaidocs-vale-rules`.
+1. Clone the GitHub repository [https://github.com/ashishguptaiitb/koreaidocs-vale-rules](https://github.com/ashishguptaiitb/koreaidocs-vale-rules) locally. Let's assume that your local path is `C:/Users/X/Documents/GitHub/koreaidocs-vale-rules`.
 
-1. Open the `.vale.ini` file in the above directory and change the value of the `StylesPath` variable to the path of the current folder. In our example, the value of the `StylesPath` variable becomes `C:\Users\X\Documents\GitHub\koreaidocs-vale-rules`. Save and close the `.vale.ini` file.  
+1. Open the `.vale.ini` file in the above directory and change the value of the `StylesPath` variable to the path of the current folder. In our example, the value of the `StylesPath` variable becomes `C:/Users/X/Documents/GitHub/koreaidocs-vale-rules`. Save and close the `.vale.ini` file. 
+
     ![Style path variable value in the Vale INI file.](images/vale-ini-stylepath.png)
 
 1. Open VSCode that's updated to the latest version. Select **File** > **Preferences** > **Settings**.
@@ -29,30 +30,39 @@ You must complete the following prerequisites before you begin to install Vale:
 
 1. Change the value of the **Vale: Max Number Of Problems** option to 500.
 
-1. In the **Vale > Vale CLI: Config** field, enter the path of the .ini settings file. In our example, the file path is `C:\Users\X\Documents\GitHub\koreaidocs-vale-rules\.vale.ini`.
+1. In the **Vale > Vale CLI: Config** field, enter the path of the .ini settings file. In our example, the file path is `C:/Users/X/Documents/GitHub/koreaidocs-vale-rules/.vale.ini`.
+
+1. To enable Vale checks for .mdx files, run the command `npm install -g mdx2vast` on a command prompt.
 
 1. Relaunch VSCode to load the new settings.
 
-## Use the extension in VSCode 
+## Use the extension in VSCode
 
-1. Open an MD file and select **View** > **Problems** to view the style issues. Report generation may take some time. Update the content to resolve these issues.
+1. Open any help article and select **View** > **Problems** to view the style issues. Report generation may take some time. Update the content to resolve these issues.
 
    ![Same problems report](images/sample-problems.png)
 
-1. Select each issue and update the content to resolve it. Hover the pointer over the issue to view the option to fix the problem.
+2. Select each issue and update the content to resolve it. Hover the pointer over the issue to view the option to fix the problem.
 
    ![Various options to resolve the issue.](images/options-to-resolve.png)
 
-1. Optionally, if you choose **Quick Fix**, it provides an AI-generated explanation of the problem, fixes the problem, and then prompts you to accept the updates. Choose **Accept** if you approve of the fix.
+3. Optionally, if you choose **Quick Fix**, it provides an AI-generated explanation of the problem, fixes the problem, and then prompts you to accept the updates. Choose **Accept** if you approve of the fix.
 
    ![Option to accept the automatic fix.](images/accept-fix.png)
 
 ## Troubleshoot Vale usage and config
 
-* If you see E100 error in VSCode in the lower-right corner, it indicates that VSCode Vale extension is not able to find the .ini settings file.
-  * Make sure in the settings that you provide the path to the .ini file and not the folder.
+* If you see `E100` error in VSCode, in the lower-right corner, it indicates that VSCode Vale extension is not able to find the vocab files.
+
+* Make sure in VSCode settings, the path to the config file that you provide is,
+
+  * Path of the .ini file and not the cloned folder.
+  * Not wrapped in double quotes and doesn't contain spaces.
 
 * If you see fatal error when cloning the repo in GitHub desktop client, it indicates either a permissions issue or an incorrect path.
-  * Make sure that you are cloning the repo in a folder where you have read-write permissions. For example, don't clone directly into C:\ but use a folder inside `C:\Users\X\*`, for example, the `Documents` folder or the 'Desktop' folder.
-  * Make sure that you don't add any special characters in the URL or the local folder. Also, make sure that you don't copy an extra space in the URL of the GitHub repo.
 
+  * Make sure that you are cloning the repo in a folder where you have read-write permissions. For example, don't clone directly into `C:\` but use a folder inside `C:/Users/X/`, for example, the `Documents` folder or the `Desktop` folder.
+  * Make sure that you haven't cloned the repo in a mapped drive. For example, OneDrive or Google Drive.
+  * Make sure that you haven't added any special characters in the URL or the local folder. Also, make sure that you don't copy an extra space in the URL of the GitHub repo.
+
+* In VSCode 
