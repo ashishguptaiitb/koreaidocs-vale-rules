@@ -52,11 +52,9 @@ You must complete the following prerequisites before you begin to install Vale:
 
 ## Troubleshoot Vale usage and config
 
-* If you see `E100` error in VSCode, in the lower-right corner, it indicates that VSCode Vale extension is not able to find the vocab files.
+* If you see `E100` error in VSCode, in the lower-right corner, it indicates that VSCode Vale extension isn't able to find the vocab files. To resolve, make sure in VSCode settings, the path to the config file that you provide is,
 
-* Make sure in VSCode settings, the path to the config file that you provide is,
-
-  * Path of the .ini file and not the cloned folder.
+  * Path of the `.vale.ini` file and not of the cloned folder.
   * Not wrapped in double quotes and doesn't contain spaces.
 
 * If you see fatal error when cloning the repo in GitHub desktop client, it indicates either a permissions issue or an incorrect path.
@@ -64,5 +62,3 @@ You must complete the following prerequisites before you begin to install Vale:
   * Make sure that you are cloning the repo in a folder where you have read-write permissions. For example, don't clone directly into `C:\` but use a folder inside `C:/Users/X/`, for example, the `Documents` folder or the `Desktop` folder.
   * Make sure that you haven't cloned the repo in a mapped drive. For example, OneDrive or Google Drive.
   * Make sure that you haven't added any special characters in the URL or the local folder. Also, make sure that you don't copy an extra space in the URL of the GitHub repo.
-
-* In VSCode 
