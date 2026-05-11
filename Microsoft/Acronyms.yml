@@ -110,3 +110,4 @@ exceptions:
   - DNS
   - ASR
   - SLA
+  - JWT
