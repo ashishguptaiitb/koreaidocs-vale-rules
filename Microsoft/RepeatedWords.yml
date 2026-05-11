@@ -1,0 +1,7 @@
+extends: existence
+message: "Check repeated word: '%s'"
+level: error
+ignorecase: true
+
+tokens:
+  - '\b([A-Za-z0-9_-]+)\s+\1\b'
