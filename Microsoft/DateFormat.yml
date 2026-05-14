@@ -1,5 +1,5 @@
 extends: existence
-message: Use 'July 31, 2016' format, not '%s'.
+message: Use 'May 14, 2026' format, not '%s'.
 link: https://learn.microsoft.com/en-us/style-guide/a-z-word-list-term-collections/term-collections/date-time-terms
 ignorecase: true
 level: error
