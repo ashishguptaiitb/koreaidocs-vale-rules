@@ -7,6 +7,8 @@ tokens:
   - '[A-Z]{2,4}'
 exceptions:
   - SSO
+  - SOAP
+  - ACL
   - API
   - APIs
   - LLM
@@ -17,3 +19,7 @@ exceptions:
   - CI
   - CD
   - ABL
+  - MCP
+  - HTTP
+  - WSDL
+  - NLU
