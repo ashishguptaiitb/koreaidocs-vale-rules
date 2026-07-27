@@ -9,6 +9,11 @@ second: '(?:\b[A-Z][a-z]+ )+\(([A-Z]{3,5})\)'
 # ... with the exception of these:
 exceptions:
   - VG
+  - MCP
+  - WSDL
+  - SOAP
+  - ACL
+  - NLU
   - ABL
   - AND
   - CSAT
@@ -25,7 +30,6 @@ exceptions:
   - USA
   - UAE
   - USD
-  - SSO
   - RAG
   - GPT
   - URL
@@ -108,6 +112,8 @@ exceptions:
   - AWS
   - CPS
   - CCP
+  - MFA
+  - SQL
   - DSCP
   - MPLS
   - DID
